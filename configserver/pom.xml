@@ -50,6 +50,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<imageName>microservicescourse/${project.artifactId}</imageName>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
